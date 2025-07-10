@@ -1,0 +1,154 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear2"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="#9E9E9E"
+		android:orientation="vertical">
+		<DigitalClock
+			android:id="@+id/digitalclock1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp" />
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Information"
+			android:textSize="40sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/textview2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="ZenOS version"
+			android:textSize="18sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/textview3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="1.0 BETA"
+			android:textSize="12sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/textview4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Language"
+			android:textSize="18sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/textview5"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="English"
+			android:textSize="12sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/textview6"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Build Status"
+			android:textSize="18sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/textview7"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="BETA"
+			android:textSize="12sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/textview8"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Kernel version"
+			android:textSize="18sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/textview9"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="hexroid 1.0"
+			android:textSize="12sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/textview10"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="UI version"
+			android:textSize="18sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/textview11"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="0.1 BETA"
+			android:textSize="12sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/textview12"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Build format"
+			android:textSize="18sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/textview13"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text=".apk"
+			android:textSize="12sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/textview14"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Time"
+			android:textSize="18sp"
+			android:textColor="#000000" />
+		<DigitalClock
+			android:id="@+id/digitalclock2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp" />
+		<TextView
+			android:id="@+id/textview15"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="First build date"
+			android:textSize="18sp"
+			android:textColor="#000000" />
+		<TextView
+			android:id="@+id/textview16"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="10 JUL. 2025"
+			android:textSize="12sp"
+			android:textColor="#000000" />
+	</LinearLayout>
+</LinearLayout>
